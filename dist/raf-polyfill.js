@@ -1,6 +1,6 @@
 (function () {
 
-  global = global || this;
+  var global = global || this;
 
   global.requestAnimationFrame = (function () {
     return requestAnimationFrame ||
