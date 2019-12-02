@@ -4,5 +4,9 @@
 **/node_modules
 test
 src
-gulp
+build
 gulpfile.js
+.editorconfig
+Gemfile
+Rakefile
+LICENSE.txt

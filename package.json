@@ -1,6 +1,6 @@
 {
   "name": "@feizheng/raf-polyfill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "requestAnimationFrame poloyfill.",
   "homepage": "https://github.com/afeiship/raf-polyfill",
   "author": {
