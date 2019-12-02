@@ -1,6 +1,6 @@
 {
-  "name": "raf-polyfill",
-  "version": "0.0.0",
+  "name": "@feizheng/raf-polyfill",
+  "version": "1.0.0",
   "description": "requestAnimationFrame poloyfill.",
   "homepage": "https://github.com/afeiship/raf-polyfill",
   "author": {
@@ -14,13 +14,10 @@
   "license": "MIT",
   "devDependencies": {
     "del": "^2.2.1",
-    "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
     "gulp-load-plugins": "^1.2.0",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.3.2",
     "gulp-size": "^2.1.0",
-    "gulp-uglify": "^2.1.2",
-    "yargs": "^4.7.1"
+    "gulp-uglify": "^2.1.2"
   }
 }
