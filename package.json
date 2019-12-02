@@ -13,11 +13,16 @@
   "main": "dist/raf-polyfill.js",
   "license": "MIT",
   "devDependencies": {
+    "@feizheng/rake-git": "^1.2.1",
     "del": "^2.2.1",
+    "gulp": "^4.0.2",
     "gulp-concat": "^2.6.0",
     "gulp-load-plugins": "^1.2.0",
     "gulp-rename": "^1.2.2",
     "gulp-size": "^2.1.0",
     "gulp-uglify": "^2.1.2"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
