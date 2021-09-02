@@ -24,4 +24,13 @@
       .pipe(gulp.dest('dist/esm'))
       .pipe($.size({ title: '[ minimize size ]:' }));
   });
+
+  gulp.task('scripts:umd', function () {
+    return gulp
+      .src('src/index.ts')
+      .pipe($.jswork.pkgHeader())
+      .pipe($.typescript({ ...tsconfig.compilerOptions, module: 'umd' }))
+      .pipe(gulp.dest('dist/umd'))
+      .pipe($.size({ title: '[ minimize size ]:' }));
+  });
 })();
