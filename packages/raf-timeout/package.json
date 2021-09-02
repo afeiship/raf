@@ -1,6 +1,6 @@
 {
   "name": "@jswork/raf-timeout",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Behaves the same as setTimeout except uses requestAnimationFrame() where possible for better performance.",
   "main": "dist/umd/index.js",
   "typings": "dist/umd/index.d.ts",
