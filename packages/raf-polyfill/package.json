@@ -1,0 +1,12 @@
+{
+  "name": "@jswork/raf-polyfill",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo done."
+  },
+  "keywords": [],
+  "author": "afeiship",
+  "license": "ISC"
+}
