@@ -15,7 +15,13 @@ npm install @jswork/raf-interval
 ```js
 import rafInterval from '@jswork/raf-interval';
 
-// usage goes here.
+// setup a timer
+const res = rafInterval(()=>{
+  console.log('task');
+},1000);
+
+// destroy
+res.destroy();
 ```
 
 ## license
