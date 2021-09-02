@@ -1,6 +1,6 @@
 // https://gist.github.com/joyrexus/7304146
 
-export default (inFn, inDelay) => {
+const rafInterval = (inFn, inDelay) => {
   let start = new Date().getTime();
   let handle;
 
@@ -23,3 +23,7 @@ export default (inFn, inDelay) => {
     }
   };
 };
+
+global.rafInterval = global.rafInterval || rafInterval;
+
+export = rafInterval;

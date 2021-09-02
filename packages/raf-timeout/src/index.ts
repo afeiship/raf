@@ -1,4 +1,4 @@
-export default (inFn, inDelay) => {
+const rafTimeout = (inFn, inDelay) => {
   const start = new Date().getTime();
   let handle;
 
@@ -17,3 +17,7 @@ export default (inFn, inDelay) => {
     }
   };
 };
+
+global.rafTimeout = global.rafTimeout || rafTimeout;
+
+export = rafTimeout;
