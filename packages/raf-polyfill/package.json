@@ -8,5 +8,9 @@
   },
   "author": "afeiship",
   "license": "MIT",
-  "gitHead": "dcf078fb0ea2f6cf0b50799ee7ad4713af693211"
+  "gitHead": "dcf078fb0ea2f6cf0b50799ee7ad4713af693211",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
