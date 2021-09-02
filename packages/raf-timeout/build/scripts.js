@@ -27,9 +27,8 @@
 
   gulp.task('scripts:umd', function () {
     return gulp
-      .src('src/index.ts')
+      .src('src/index.js')
       .pipe($.jswork.pkgHeader())
-      .pipe($.typescript({ ...tsconfig.compilerOptions, module: 'umd' }))
       .pipe(gulp.dest('dist/umd'))
       .pipe($.size({ title: '[ minimize size ]:' }));
   });
